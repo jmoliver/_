@@ -3,7 +3,6 @@ import { createKeyboardListener } from './input.js';
 
 const screen = document.querySelector('#screen');
 const context = screen.getContext('2d');
-const currentPlayerId = 'player1';
 const game = createGame();
 const keyboardListener = createKeyboardListener();
 
